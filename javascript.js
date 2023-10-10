@@ -2,7 +2,7 @@ const lightBulbSwitch = document.querySelector('#lightBulbSwitch');
 const lightbulbImage = document.querySelector('#lightbulbImage');
 
 let isLightBulbOn = false;
-
+lightbulbImage.src ='lightOff.png'
 
 lightBulbSwitch.addEventListener('click', function(){
     
